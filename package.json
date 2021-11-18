@@ -4,7 +4,7 @@
   "private": false,
   "scripts": {
     "reinstall": "rm -rf node_modules/ && yarn",
-    "clean": "rm -rf .next",
+    "clean": "del -rf .next",
     "dev": "next dev",
     "test": "jest",
     "build": "next build && next export && yarn postexport",
